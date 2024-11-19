@@ -8,10 +8,10 @@
 #  environment = "dev"
 #}
 
-#CONFIGURATION FOR CREATION AWS S# BUCKET - DEV
+#CONFIGURATION FOR null_resource - DEV
 
 terraform {
-  source = "../../modules/s3_bucket"
+  source = "../../modules/null_resource"
 }
 
 inputs = {
